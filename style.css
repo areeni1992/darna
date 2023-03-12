@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "CustomFont";
+    src: url("link-icons/Janna\ LT\ Bold.ttf");
+    src: url("link-icons/Janna\ LT\ Bold.ttf") format("woff"),
+    url("CustomFont.otf") format("opentype"),
+    url("CustomFont.svg#filename") format("svg");
+    }
+
 body { 
     min-height: 100vh;
     position: relative;
