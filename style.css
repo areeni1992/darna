@@ -1,0 +1,45 @@
+body { 
+    min-height: 100vh;
+    position: relative;
+}
+
+.logo .cls-1 {
+    fill: #752128 !important; 
+}
+.social-contact .cls-1,
+.links .cls-1 {
+    fill: #a77075 !important;
+}
+.links a{
+    width: 300px;
+    color: #a77075 !important;
+    font-weight: bold;
+}
+
+.links a:hover{
+    border: 1px solid #801624;
+    color: #801624 !important;
+    /* box-shadow: none !important; */
+    background-color: #fff;
+}
+
+footer{
+    position: absolute;
+    bottom: 10px;
+    height: 2.5rem;
+    width: 100%;
+}
+@media only screen and (min-width: 768px) {
+    /* tablets and desktop */
+    .links a {
+        width: 500px !important;
+        font-size: large;
+        font-weight: bold;
+    }
+}
+@media only screen and (max-width: 767px) {
+    /* phones */
+    .descriptioin {
+        font-size: 14px !important;
+    }
+}
